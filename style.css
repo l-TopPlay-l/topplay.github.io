@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+article {
+    background-color: skyblue;
+    padding: 15px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: white;
+    padding: 30px;
+    justify-content: left;
+    display: flex;
+}
+
+footer a {
+    margin-right: 30px;
+}
+
+footer p {
+    font-size: 24px;
+}
